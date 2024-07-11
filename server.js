@@ -24,7 +24,7 @@ app.use('/api/v1/auth',authRoutes);
 app.use('/api/v1/category',categoryRoutes);
 app.use('/api/v1/products',productRoute);
 
-app.get((req,res)=>{
+app.get('/',(req,res)=>{
     res.send("hello world")
 })
 
