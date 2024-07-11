@@ -37,7 +37,7 @@ const PORT = process.env.PORT;
 app.listen(PORT,()=>{
     console.log(`server running on ${process.env.DEV_MODE} mode on port ${PORT}`.bgCyan.white);
 })
-})
+
 
 const PORT = process.env.PORT;
 
